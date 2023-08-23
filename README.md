@@ -5,10 +5,10 @@
 1. Clone Repo from Github at local editor
 
 ```shell
-git clone
+git clone git@github.com:Rhaenyra-Liang/pretest.git
 ```
 
-2. Install dependencies using pnpm:
+2. Install dependencies using npm:
 
 ```shell
 npm install
