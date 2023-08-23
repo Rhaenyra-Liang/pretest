@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Document of Todo AgeGroupPriceList
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Get Started
 
-## Available Scripts
+1. Clone Repo from Github at local editor
 
-In the project directory, you can run:
+```shell
+git clone
+```
 
-### `npm start`
+2. Install dependencies using pnpm:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```shell
+npm install
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. Start the development server:
 
-### `npm test`
+```shell
+npm start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. Open <http://localhost:3000> to view it in the browser.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Requirements
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. [x] Implement using JavaScript ES5+.
+2. [x] Set up the environment using create-react-app.
+3. [x] Do not use Lodash or similar packages.
+4. [x] implement a function using regular expressions to add a thousand separator to numbers based on the following conditions
+5. [x] implement a function based on the following conditions to identify overlapping and excluded number intervals between 0 and 20:
+6. [x] PriceInput Component
+7. [x] AgeGroupSelect Component
+8. [x] Using the functions and components from the previous four questions, implement the AgeGroupPriceList UI.
+9. [x] The data from the result will be obtained through the onChange prop that is passed in.
+10. [x] An error message needs to be displayed.
+11. [x] Partial validation criteria specifications.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Stacks
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Language
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**JavascriptScript**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### UI Framework
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**React.js**
 
-## Learn More
+### Environment
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Create React App**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### CSS Framework
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**TailwindCSS**
